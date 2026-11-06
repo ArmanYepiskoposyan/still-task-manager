@@ -10,7 +10,7 @@ The workflow does not deploy. Do not connect a Git integration or run a Vercel d
 
 ## Verified local serving behavior
 
-`npm run build` emits static HTML, JS, CSS, two DM Sans WOFF2 files, favicon, theme bootstrap and license notices. Assets use relative paths. `npm run test:release` serves the actual output with ordinary static-file semantics at root and `/java-task-manager/`, exercising all three engines, loaded fonts, task/project creation, theme and data reload, JSON download, no horizontal overflow, and absence of external requests/page errors.
+`npm run build` emits static HTML, JS, CSS, two DM Sans WOFF2 files, favicon, theme bootstrap and license notices. Assets use relative paths. `npm run test:release` serves the actual output with ordinary static-file semantics at root and the historical `/java-task-manager/` subdirectory fixture, exercising all three engines, loaded fonts, task/project creation, theme and data reload, JSON download, no horizontal overflow, and absence of external requests/page errors.
 
 Navigation uses in-page state; no client route such as `/today` exists, and no catch-all rewrite is needed. Refresh reloads the app at the root and resets the selected view while preserving saved data/theme. Unknown paths need not expose development files. Production output excludes source maps, tests and package configuration. The theme bootstrap executes before React to apply the stored/system theme. Fresh browser origins start empty.
 
@@ -24,8 +24,8 @@ Use the same stable production origin after launch. There is no cloud backup, en
 
 ## Procedure after explicit publication/deployment authorization
 
-1. Complete the [release checklist](release-checklist.md), inspect the existing remote again, and publish the reviewed source using the safe [repository plan](phase6-repository.md). Confirm the exact CV URL and CI outcome.
-2. With deployment authorization, import only `ArmanYepiskoposyan/java-task-manager` into Vercel. Review the root, Node 24, install/build/output values above before initiating deployment. Do not add a backend, secrets, tracking or synthetic seed tasks.
+1. Complete the [release checklist](release-checklist.md). Source is already published in [ArmanYepiskoposyan/still-task-manager](https://github.com/ArmanYepiskoposyan/still-task-manager); verify the intended commit and its CI outcome before deployment. Preserve the existing history and use the SSH remote documented in the [repository notes](phase6-repository.md).
+2. With deployment authorization, import only `ArmanYepiskoposyan/still-task-manager` into Vercel. Review the root, Node 24, install/build/output values above before initiating deployment. Do not add a backend, secrets, tracking or synthetic seed tasks.
 3. Inspect the hosted build log and asset requests. Confirm HTTPS, cold load, font/theme loading, refresh, all navigation, mobile reflow, keyboard workflow, task/project CRUD, JSON export/import, error-free console and origin-specific persistence in a disposable synthetic workspace.
 4. Check desktop light/dark, tablet, mobile and 320px layouts. Run screen-reader and actual 200%/400% zoom checks on available browsers. Verify no development endpoints or source maps are served.
 5. Record the deployed source commit and deployment identifier. Add the verified live URL to the README only after owner acceptance; retain the existing repository URL.

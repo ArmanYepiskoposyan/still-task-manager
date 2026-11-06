@@ -4,7 +4,7 @@ Date: 2026-11-03. Status: release candidate prepared for independent review; pub
 
 ## Release scope and architecture
 
-Still is a React 19 / TypeScript 6 / Vite 8 / Tailwind 4 browser-local web application. Its historical Java command-line origin explains the existing repository name; the web application has no Java build step. The repository remains [ArmanYepiskoposyan/java-task-manager](https://github.com/ArmanYepiskoposyan/java-task-manager).
+Still is a React 19 / TypeScript 6 / Vite 8 / Tailwind 4 browser-local web application. Its historical Java command-line origin explains the former repository name; the web application has no Java build step. The owner subsequently renamed the same repository to [ArmanYepiskoposyan/still-task-manager](https://github.com/ArmanYepiskoposyan/still-task-manager). This dated audit and its measurement files retain preparation-time findings; current repository status is documented in [repository notes](phase6-repository.md).
 
 All approved features remain: task CRUD, completion/reopening, stable identities, notes/priorities/calendar deadlines, Today/Open/All/Completed/Upcoming/Unassigned views, projects and assignments, literal Unicode search, filters/sorting, workload statistics, JSON backup/restore and raw recovery, version-1 migration, validated schema-2 persistence, write-before-publish commits, cross-tab conflict detection, optional shortcuts, themes and responsive layouts. No new product feature, backend, account, analytics, advertising, synchronization or redesign was added.
 

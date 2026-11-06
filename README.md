@@ -2,9 +2,9 @@
 
 A focused personal workspace for tasks, projects, and the days ahead. Still is built with **React, TypeScript, Vite, and Tailwind CSS** and stores your workspace locally in your browser.
 
-Still evolved from an earlier **Java command-line Task Manager**. The repository retains its original name, `java-task-manager`, and [the exact repository URL used in my CV](https://github.com/ArmanYepiskoposyan/java-task-manager). The current application uses a modern web toolchain; Java is not required to build or run it.
+Still evolved from an earlier **Java command-line Task Manager**. The project is published in [ArmanYepiskoposyan/still-task-manager](https://github.com/ArmanYepiskoposyan/still-task-manager), renamed from `java-task-manager`. The current application uses a modern web toolchain; Java is not required to build or run it.
 
-**Release status:** Phase 6 final independent review approved. Source publication and website deployment are awaiting authorization. A verified live-demo link will be added after deployment; no live website is claimed here.
+**Release status:** Phase 6 final independent review approved. Source code is published on GitHub. Website deployment is awaiting authorization. A verified live-demo link will be added after deployment; no live website is claimed here.
 
 ![Still desktop interface in the light theme](docs/screenshots/phase6/01-desktop-light.png)
 
@@ -28,11 +28,11 @@ All screenshots use synthetic examples. The application starts empty and contain
 
 Use Node.js **24.22.1** (recorded in `.nvmrc`) and npm **12.2.0** for the verified toolchain. The package also declares its compatible Node/npm ranges. No Java compiler, server, database, API key, or environment file is needed.
 
-From an extracted review package, open its `TaskManager_Web` directory. After source publication is authorized, the same project can be obtained from the existing repository:
+From an extracted review package, open its `TaskManager_Web` directory. The same project can be cloned from the official repository:
 
 ```sh
-git clone git@github.com:ArmanYepiskoposyan/java-task-manager.git
-cd java-task-manager
+git clone git@github.com:ArmanYepiskoposyan/still-task-manager.git
+cd still-task-manager
 ```
 
 Then, from the project root:
@@ -51,7 +51,7 @@ npm run build
 npm run preview
 ```
 
-The production output is `dist/`. `vite preview` is for local checking, not production serving. No public deployment is performed by these commands. The build uses relative asset URLs so it can be served at a domain root or beneath `/java-task-manager/`.
+The production output is `dist/`. `vite preview` is for local checking, not production serving. No public deployment is performed by these commands. The build uses relative asset URLs so it can be served at a domain root or under a subdirectory. The static-release test retains `/java-task-manager/` as its historical subdirectory fixture; this is not the current repository URL.
 
 ## Verify the project
 
@@ -78,7 +78,7 @@ On Linux, Playwright may require `npm exec -- playwright install --with-deps chr
 | `npm run screenshots`      | Capture final interface screenshots using synthetic data             |
 | `npm run test:performance` | Synthetic task/project measurements; requires a preview on port 4173 |
 
-The [complete Phase 6 verification report](docs/phase6-verification.md) records actual results, fresh-install checks, accessibility coverage, audit findings, and remaining limitations. The verification-only GitHub Actions workflow is prepared but has not been run on GitHub; it contains no deployment job.
+The [complete Phase 6 verification report](docs/phase6-verification.md) records actual results, fresh-install checks, accessibility coverage, audit findings, and remaining limitations. The verification-only GitHub Actions workflow runs on GitHub; see [workflow results](https://github.com/ArmanYepiskoposyan/still-task-manager/actions/workflows/verify.yml). It contains no deployment job.
 
 ## Engineering approach
 
@@ -125,6 +125,6 @@ Imports are fully validated before a preview appears. Replacement requires an ex
 - [Phase 4 audit](docs/phase4-audit.md), [verification](docs/phase4-verification.md), and [screenshots](docs/phase4-visual-review.md)
 - [Phase 3 architecture](docs/phase3-architecture.md), [Phase 2 architecture](docs/phase2-architecture.md), and [original design](docs/design.md)
 
-Historical reports describe their respective approved phases. Final source publication will use only `ArmanYepiskoposyan/java-task-manager`; the repository name and CV URL will remain unchanged. Third-party notices shipped with the built application are in [public/third-party-notices.txt](public/third-party-notices.txt).
+Historical reports describe their respective approved phases. The official repository is now [ArmanYepiskoposyan/still-task-manager](https://github.com/ArmanYepiskoposyan/still-task-manager). Dated audit records retain the previous repository name and URLs as historical evidence. Third-party notices shipped with the built application are in [public/third-party-notices.txt](public/third-party-notices.txt).
 
 Licensed under the [MIT License](LICENSE). Copyright (c) 2026 Arman Yepiskoposyan. Third-party components retain their respective licenses; see [third-party notices](public/third-party-notices.txt). Historical phase reports record their preparation-time licensing status.

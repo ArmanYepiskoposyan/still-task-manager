@@ -56,7 +56,7 @@
   "description": "Still — a browser-local task manager built with React and TypeScript, evolved from a Java command-line project.",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ArmanYepiskoposyan/java-task-manager.git"
+    "url": "git+ssh://git@github.com/ArmanYepiskoposyan/still-task-manager.git"
   },
   "overrides": {
     "minimatch": "11.0.1"
