@@ -1,10 +1,12 @@
 # Still — Modern Task Manager
 
-A focused personal workspace for tasks, projects, and the days ahead. Still is built with **React, TypeScript, Vite, and Tailwind CSS** and stores your workspace locally in your browser.
+A focused personal workspace for tasks, projects, and the days ahead. Still is a productivity web application built with **React, TypeScript, Vite, and Tailwind CSS**. Tasks are stored locally in your browser and are not synchronized across devices.
+
+**Live Demo:** [**Try Still Live**](https://still-task-manager.vercel.app/)
 
 Still evolved from an earlier **Java command-line Task Manager**. The project is published in [ArmanYepiskoposyan/still-task-manager](https://github.com/ArmanYepiskoposyan/still-task-manager), renamed from `java-task-manager`. The current application uses a modern web toolchain; Java is not required to build or run it.
 
-**Release status:** Phase 6 final independent review approved. Source code is published on GitHub. Website deployment is awaiting authorization. A verified live-demo link will be added after deployment; no live website is claimed here.
+**Release status:** Phase 6 final independent review approved. Source code is published on GitHub, and the application is live on Vercel.
 
 ![Still desktop interface in the light theme](docs/screenshots/phase6/01-desktop-light.png)
 
@@ -106,7 +108,7 @@ Imports are fully validated before a preview appears. Replacement requires an ex
 
 ## Privacy and practical limits
 
-- Data stays in one browser profile and origin. There is no account, backend, cloud synchronization, analytics, or automatic remote backup.
+- Data stays in one browser profile and origin and is not synchronized across devices. There is no account, backend, cloud synchronization, analytics, or automatic remote backup.
 - Browser data and backup files are not encrypted by the application. Clearing site data, private-mode cleanup, eviction, or device loss can remove the local copy. Keep downloaded backups somewhere safe.
 - Backup/import files are limited to **10 MiB**. Browser storage quotas vary and can be smaller. Raw-document recovery downloads are available when storage can be read.
 - Use one editing tab. Conflict checks detect intervening changes, but localStorage cannot guarantee atomic compare-and-swap for truly simultaneous writes.
@@ -120,7 +122,7 @@ Imports are fully validated before a preview appears. Replacement requires an ex
 - [Phase 6 verification and changed-file inventory](docs/phase6-verification.md)
 - [Phase 6 screenshots and visual review](docs/phase6-visual-review.md)
 - [Existing repository inspection and publication plan](docs/phase6-repository.md)
-- [Deployment preparation and post-authorization checklist](docs/deployment.md)
+- [Deployment and rollback notes (historical preparation)](docs/deployment.md)
 - [Phase 5 architecture](docs/phase5-architecture.md), [verification](docs/phase5-verification.md), and [screenshots](docs/phase5-visual-review.md)
 - [Phase 4 audit](docs/phase4-audit.md), [verification](docs/phase4-verification.md), and [screenshots](docs/phase4-visual-review.md)
 - [Phase 3 architecture](docs/phase3-architecture.md), [Phase 2 architecture](docs/phase2-architecture.md), and [original design](docs/design.md)
