@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-03",
+  "unit": {
+    "passed": 282,
+    "files": 14,
+    "failed": 0
+  },
+  "browsers": {
+    "chromiumPassed": 84,
+    "firefoxPassed": 79,
+    "webkitPassed": 79,
+    "captureOnlySkipped": 10,
+    "failed": 0,
+    "localRetries": 0
+  },
+  "axe": {
+    "scans": 279,
+    "violations": 0
+  },
+  "additionalWebKitFocusRepetitions": 10,
+  "staticProductionCases": 6,
+  "cleanInstall": {
+    "node": "24.22.1",
+    "npm": "12.2.0",
+    "packagesInstalled": 255,
+    "checkPassed": true,
+    "productionHashesIdentical": true
+  },
+  "dependencies": {
+    "vulnerabilitiesBefore": {
+      "moderate": 12
+    },
+    "vulnerabilitiesAfter": 0,
+    "productionVulnerabilities": 0,
+    "verifiedSignatures": 255,
+    "verifiedAttestations": 110
+  },
+  "screenshots": {
+    "phase6": 24,
+    "historicalUnchanged": 98
+  },
+  "notVerified": [
+    "screen-reader speech/navigation",
+    "actual 200% and 400% browser zoom",
+    "physical devices",
+    "GitHub-hosted CI",
+    "Vercel build and public HTTPS",
+    "provider rollback"
+  ],
+  "ownerAction": [
+    "Git author name/email",
+    "project-license approval",
+    "independent review",
+    "explicit publication and deployment authorization"
+  ],
+  "remotePush": false,
+  "deployment": false
+}

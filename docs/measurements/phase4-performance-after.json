@@ -1,0 +1,281 @@
+{
+  "label": "after",
+  "measuredAt": "2026-10-27T11:42:05.972Z",
+  "platform": "darwin",
+  "arch": "arm64",
+  "cpu": "Apple M2",
+  "logicalCpus": 8,
+  "memoryBytes": 8589934592,
+  "node": "v24.22.1",
+  "browser": "156.0.8078.4",
+  "trialsPerSize": 3,
+  "results": [
+    {
+      "count": 100,
+      "medianMs": {
+        "render": 244.17,
+        "search": 64.56,
+        "clearSearch": 82.52,
+        "filtering": 78.46,
+        "sorting": 80.83,
+        "completion": 99.42,
+        "writeMs": 0.2
+      },
+      "trials": [
+        {
+          "render": 287.2324590000003,
+          "search": 88.97062499999993,
+          "clearSearch": 99.88566700000001,
+          "filtering": 78.45900000000029,
+          "sorting": 94.61716600000045,
+          "completion": 99.4243749999996,
+          "writeMs": 0.2999999523162842,
+          "storedBytes": 50195,
+          "initialMemory": {
+            "heapBytes": 2939304,
+            "nodes": 2529,
+            "listeners": 476
+          },
+          "finalMemory": {
+            "heapBytes": 4006848,
+            "nodes": 2529,
+            "listeners": 473
+          },
+          "steadyMemory": {
+            "heapBytes": 4083016,
+            "nodes": 2539,
+            "listeners": 473
+          }
+        },
+        {
+          "render": 244.17050000000017,
+          "search": 64.56020799999988,
+          "clearSearch": 82.52083299999958,
+          "filtering": 60.43341700000019,
+          "sorting": 80.82533299999977,
+          "completion": 99.84545799999978,
+          "writeMs": 0.20000004768371582,
+          "storedBytes": 50195,
+          "initialMemory": {
+            "heapBytes": 2937820,
+            "nodes": 2529,
+            "listeners": 476
+          },
+          "finalMemory": {
+            "heapBytes": 4008584,
+            "nodes": 2529,
+            "listeners": 473
+          },
+          "steadyMemory": {
+            "heapBytes": 4083124,
+            "nodes": 2539,
+            "listeners": 473
+          }
+        },
+        {
+          "render": 217.00937499999964,
+          "search": 49.68433299999924,
+          "clearSearch": 66.33458299999984,
+          "filtering": 107.18299999999908,
+          "sorting": 70.5322500000002,
+          "completion": 83.18945800000074,
+          "writeMs": 0,
+          "storedBytes": 50195,
+          "initialMemory": {
+            "heapBytes": 2939336,
+            "nodes": 2529,
+            "listeners": 476
+          },
+          "finalMemory": {
+            "heapBytes": 4008744,
+            "nodes": 2529,
+            "listeners": 473
+          },
+          "steadyMemory": {
+            "heapBytes": 4083224,
+            "nodes": 2539,
+            "listeners": 473
+          }
+        }
+      ]
+    },
+    {
+      "count": 1000,
+      "medianMs": {
+        "render": 580.09,
+        "search": 107.61,
+        "clearSearch": 266.53,
+        "filtering": 97.85,
+        "sorting": 305,
+        "completion": 199.88,
+        "writeMs": 1.2
+      },
+      "trials": [
+        {
+          "render": 524.1647080000002,
+          "search": 102.66662499999984,
+          "clearSearch": 250.04354199999943,
+          "filtering": 96.99012500000026,
+          "sorting": 296.99966700000004,
+          "completion": 199.88379099999838,
+          "writeMs": 3,
+          "storedBytes": 504365,
+          "initialMemory": {
+            "heapBytes": 7735480,
+            "nodes": 21429,
+            "listeners": 3176
+          },
+          "finalMemory": {
+            "heapBytes": 9708016,
+            "nodes": 21429,
+            "listeners": 3173
+          },
+          "steadyMemory": {
+            "heapBytes": 9792472,
+            "nodes": 21439,
+            "listeners": 3173
+          }
+        },
+        {
+          "render": 580.0894999999982,
+          "search": 107.60591700000077,
+          "clearSearch": 299.90929099999994,
+          "filtering": 100.81975000000239,
+          "sorting": 323.2768750000032,
+          "completion": 199.31687500000044,
+          "writeMs": 1.2000000476837158,
+          "storedBytes": 504365,
+          "initialMemory": {
+            "heapBytes": 7752208,
+            "nodes": 21429,
+            "listeners": 3176
+          },
+          "finalMemory": {
+            "heapBytes": 9738716,
+            "nodes": 21429,
+            "listeners": 3173
+          },
+          "steadyMemory": {
+            "heapBytes": 9787248,
+            "nodes": 21439,
+            "listeners": 3173
+          }
+        },
+        {
+          "render": 664.3675000000003,
+          "search": 110.42541599999822,
+          "clearSearch": 266.5283329999984,
+          "filtering": 97.84704200000124,
+          "sorting": 304.9950420000023,
+          "completion": 200.45862500000294,
+          "writeMs": 1,
+          "storedBytes": 504365,
+          "initialMemory": {
+            "heapBytes": 7735556,
+            "nodes": 21429,
+            "listeners": 3176
+          },
+          "finalMemory": {
+            "heapBytes": 9706664,
+            "nodes": 21429,
+            "listeners": 3173
+          },
+          "steadyMemory": {
+            "heapBytes": 9800148,
+            "nodes": 21439,
+            "listeners": 3173
+          }
+        }
+      ]
+    },
+    {
+      "count": 3000,
+      "medianMs": {
+        "render": 1226.9,
+        "search": 197.94,
+        "clearSearch": 732.04,
+        "filtering": 192.06,
+        "sorting": 940.75,
+        "completion": 399.6,
+        "writeMs": 3.1
+      },
+      "trials": [
+        {
+          "render": 1226.9048750000002,
+          "search": 197.93966699999874,
+          "clearSearch": 666.5736669999969,
+          "filtering": 189.01587499999732,
+          "sorting": 943.1055419999975,
+          "completion": 399.60425000000396,
+          "writeMs": 3.3000000715255737,
+          "storedBytes": 1519633,
+          "initialMemory": {
+            "heapBytes": 18339980,
+            "nodes": 63429,
+            "listeners": 9176
+          },
+          "finalMemory": {
+            "heapBytes": 22290312,
+            "nodes": 63429,
+            "listeners": 9173
+          },
+          "steadyMemory": {
+            "heapBytes": 22335260,
+            "nodes": 63439,
+            "listeners": 9173
+          }
+        },
+        {
+          "render": 1185.6439580000006,
+          "search": 212.2999159999963,
+          "clearSearch": 732.0438749999958,
+          "filtering": 192.06033300000126,
+          "sorting": 925.6005000000005,
+          "completion": 366.3015000000014,
+          "writeMs": 2.299999952316284,
+          "storedBytes": 1519633,
+          "initialMemory": {
+            "heapBytes": 18340524,
+            "nodes": 63429,
+            "listeners": 9176
+          },
+          "finalMemory": {
+            "heapBytes": 22293184,
+            "nodes": 63429,
+            "listeners": 9173
+          },
+          "steadyMemory": {
+            "heapBytes": 21671424,
+            "nodes": 63439,
+            "listeners": 9173
+          }
+        },
+        {
+          "render": 1336.6046669999923,
+          "search": 192.4122919999936,
+          "clearSearch": 799.0903330000001,
+          "filtering": 195.28349999999045,
+          "sorting": 940.7540000000008,
+          "completion": 465.6594170000026,
+          "writeMs": 3.100000023841858,
+          "storedBytes": 1519633,
+          "initialMemory": {
+            "heapBytes": 18340032,
+            "nodes": 63429,
+            "listeners": 9176
+          },
+          "finalMemory": {
+            "heapBytes": 22289536,
+            "nodes": 63429,
+            "listeners": 9173
+          },
+          "steadyMemory": {
+            "heapBytes": 22334460,
+            "nodes": 63439,
+            "listeners": 9173
+          }
+        }
+      ]
+    }
+  ]
+}

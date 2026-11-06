@@ -1,0 +1,146 @@
+[
+  {
+    "file": "docs/screenshots/phase6/01-desktop-light.png",
+    "width": 1440,
+    "height": 1109,
+    "bytes": 153587
+  },
+  {
+    "file": "docs/screenshots/phase6/02-desktop-dark.png",
+    "width": 1440,
+    "height": 1109,
+    "bytes": 153235
+  },
+  {
+    "file": "docs/screenshots/phase6/03-upcoming-dark.png",
+    "width": 1440,
+    "height": 1109,
+    "bytes": 142729
+  },
+  {
+    "file": "docs/screenshots/phase6/04-upcoming-light.png",
+    "width": 1440,
+    "height": 1109,
+    "bytes": 143195
+  },
+  {
+    "file": "docs/screenshots/phase6/05-project-view.png",
+    "width": 1440,
+    "height": 1109,
+    "bytes": 142757
+  },
+  {
+    "file": "docs/screenshots/phase6/06-task-editor.png",
+    "width": 1440,
+    "height": 1050,
+    "bytes": 237040
+  },
+  {
+    "file": "docs/screenshots/phase6/07-project-delete-confirmation.png",
+    "width": 1440,
+    "height": 1050,
+    "bytes": 219067
+  },
+  {
+    "file": "docs/screenshots/phase6/08-backup-export.png",
+    "width": 1440,
+    "height": 1050,
+    "bytes": 254553
+  },
+  {
+    "file": "docs/screenshots/phase6/09-import-preview.png",
+    "width": 1440,
+    "height": 1050,
+    "bytes": 261868
+  },
+  {
+    "file": "docs/screenshots/phase6/10-shortcut-help.png",
+    "width": 1440,
+    "height": 1050,
+    "bytes": 236423
+  },
+  {
+    "file": "docs/screenshots/phase6/11-768-light.png",
+    "width": 768,
+    "height": 1080,
+    "bytes": 105262
+  },
+  {
+    "file": "docs/screenshots/phase6/12-768-dark.png",
+    "width": 768,
+    "height": 1080,
+    "bytes": 104628
+  },
+  {
+    "file": "docs/screenshots/phase6/13-390-light.png",
+    "width": 390,
+    "height": 1568,
+    "bytes": 87186
+  },
+  {
+    "file": "docs/screenshots/phase6/14-390-dark.png",
+    "width": 390,
+    "height": 1568,
+    "bytes": 87210
+  },
+  {
+    "file": "docs/screenshots/phase6/15-360-light.png",
+    "width": 360,
+    "height": 1568,
+    "bytes": 86673
+  },
+  {
+    "file": "docs/screenshots/phase6/16-360-dark.png",
+    "width": 360,
+    "height": 1568,
+    "bytes": 86689
+  },
+  {
+    "file": "docs/screenshots/phase6/17-320-light.png",
+    "width": 320,
+    "height": 1612,
+    "bytes": 86309
+  },
+  {
+    "file": "docs/screenshots/phase6/18-320-dark.png",
+    "width": 320,
+    "height": 1612,
+    "bytes": 86383
+  },
+  {
+    "file": "docs/screenshots/phase6/19-320-failed-save-dark.png",
+    "width": 320,
+    "height": 900,
+    "bytes": 49661
+  },
+  {
+    "file": "docs/screenshots/phase6/20-320-storage-recovery-dark.png",
+    "width": 320,
+    "height": 900,
+    "bytes": 61663
+  },
+  {
+    "file": "docs/screenshots/phase6/21-today-light.png",
+    "width": 1440,
+    "height": 1109,
+    "bytes": 132209
+  },
+  {
+    "file": "docs/screenshots/phase6/22-search-and-filters-light.png",
+    "width": 1440,
+    "height": 1309,
+    "bytes": 142944
+  },
+  {
+    "file": "docs/screenshots/phase6/23-no-results-light.png",
+    "width": 1440,
+    "height": 1301,
+    "bytes": 132602
+  },
+  {
+    "file": "docs/screenshots/phase6/24-empty-workspace-light.png",
+    "width": 1440,
+    "height": 1102,
+    "bytes": 116058
+  }
+]

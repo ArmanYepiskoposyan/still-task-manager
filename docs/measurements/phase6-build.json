@@ -1,0 +1,45 @@
+{
+  "cleanBuildMatches": true,
+  "files": [
+    {
+      "path": "assets/dm-sans-latin-ext-wght-normal-BOFOeGcA.woff2",
+      "bytes": 18228,
+      "sha256": "a5d38fe99f930275684999b462c7123faa063d9e44e73b4b241723d884aa0f49"
+    },
+    {
+      "path": "assets/dm-sans-latin-wght-normal-Xz1IZZA0.woff2",
+      "bytes": 36932,
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543"
+    },
+    {
+      "path": "assets/index-CzIGxcEj.js",
+      "bytes": 274302,
+      "sha256": "ad8f2379d18de5449e6b2c7f7c6ccb129e8dfa0e045ef38a2c16359f3804448d"
+    },
+    {
+      "path": "assets/index-_X5YOLTx.css",
+      "bytes": 38802,
+      "sha256": "79d52845bed53482d2cf1b90857281f3d566f5d9cbe3c30b0213ca1e7e44ebfd"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 233,
+      "sha256": "f980b183d28740c08a0352b77be8d3c14e9bdbeab6d27935bfb9621895a4735d"
+    },
+    {
+      "path": "index.html",
+      "bytes": 878,
+      "sha256": "622c1ed95dab93f27bf73c0cf91c8c46b4772a89f7f85085d53a0ba89b3a11b4"
+    },
+    {
+      "path": "theme-init.js",
+      "bytes": 533,
+      "sha256": "768db5bfa2e3cac577d2266835caea5e43246fec18d6da83116990a8e05d62d0"
+    },
+    {
+      "path": "third-party-notices.txt",
+      "bytes": 9090,
+      "sha256": "6262f5f7b0d3a42e8908f9399ce8fe7f9a8515a7c5e58250aecb462716f9f2c2"
+    }
+  ]
+}

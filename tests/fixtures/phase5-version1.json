@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "tasks": [
+    {
+      "id": "617daff3-edc3-4f91-bb0c-1979aef141d0",
+      "title": "A real version-one record 🌿",
+      "notes": "Unicode Բարև and literal <script> text. Edited in the approved Phase 4 UI.",
+      "completed": false,
+      "priority": "High",
+      "dueDate": "2028-02-29",
+      "createdAt": "2026-11-02T08:00:00.000Z",
+      "updatedAt": "2026-11-02T09:00:00.000Z"
+    },
+    {
+      "id": "6ac4bbd1-d1bf-4f09-af15-03f05490c7e6",
+      "title": "Completed in Phase 4",
+      "notes": "Preserve the completion instant.",
+      "completed": true,
+      "priority": "Normal",
+      "dueDate": "2026-11-02",
+      "createdAt": "2026-11-02T08:00:00.000Z",
+      "updatedAt": "2026-11-02T09:00:00.000Z",
+      "completedAt": "2026-11-02T09:00:00.000Z"
+    },
+    {
+      "id": "e6fac3a0-881e-4255-8341-58a6ba895618",
+      "title": "An undated idea",
+      "completed": false,
+      "priority": "Low",
+      "createdAt": "2026-11-02T08:00:00.000Z",
+      "updatedAt": "2026-11-02T08:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "productionRoot": "dist",
+  "cases": 6,
+  "results": [
+    {
+      "engine": "chromium",
+      "base": "/",
+      "passed": true,
+      "pageErrors": 0,
+      "failedRequests": 0,
+      "externalRequests": 0
+    },
+    {
+      "engine": "firefox",
+      "base": "/",
+      "passed": true,
+      "pageErrors": 0,
+      "failedRequests": 0,
+      "externalRequests": 0
+    },
+    {
+      "engine": "webkit",
+      "base": "/",
+      "passed": true,
+      "pageErrors": 0,
+      "failedRequests": 0,
+      "externalRequests": 0
+    },
+    {
+      "engine": "chromium",
+      "base": "/java-task-manager/",
+      "passed": true,
+      "pageErrors": 0,
+      "failedRequests": 0,
+      "externalRequests": 0
+    },
+    {
+      "engine": "firefox",
+      "base": "/java-task-manager/",
+      "passed": true,
+      "pageErrors": 0,
+      "failedRequests": 0,
+      "externalRequests": 0
+    },
+    {
+      "engine": "webkit",
+      "base": "/java-task-manager/",
+      "passed": true,
+      "pageErrors": 0,
+      "failedRequests": 0,
+      "externalRequests": 0
+    }
+  ]
+}

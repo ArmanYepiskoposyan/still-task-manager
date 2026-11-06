@@ -1,0 +1,198 @@
+{
+  "measuredAt": "2026-11-03T06:09:40.867Z",
+  "node": "v24.22.1",
+  "browser": "156.0.8078.4",
+  "platform": "darwin",
+  "arch": "arm64",
+  "cpu": "Apple M2",
+  "logicalCpus": 8,
+  "memoryBytes": 8589934592,
+  "trialsPerSize": 4,
+  "method": "Local production builds. Playwright elapsed time plus observable DOM and two animation frames; not INP. Uncontrolled machine load. Paired renders alternate order using identical v1 records. Phase 5 feature timings use v2 records with projects.",
+  "comparisons": [],
+  "results": [
+    {
+      "count": 100,
+      "projectCount": 3,
+      "jsonBytes": 52551,
+      "trials": [
+        {
+          "render": 96.93720800000006,
+          "search": 49.47416599999997,
+          "sort": 27.96766700000012,
+          "project": 32.53654099999994,
+          "upcoming": 96.21908299999996,
+          "exportDownload": 82.02200000000016,
+          "importPreview": 63.40004199999976,
+          "restore": 84.15208299999995,
+          "heapBytesAfterRestore": 4757660
+        },
+        {
+          "render": 96.64675000000034,
+          "search": 32.31987499999968,
+          "sort": 36.79475000000002,
+          "project": 32.401082999999744,
+          "upcoming": 63.78862500000014,
+          "exportDownload": 60.529415999999856,
+          "importPreview": 64.54266699999971,
+          "restore": 78.03429199999982,
+          "heapBytesAfterRestore": 4757308
+        },
+        {
+          "render": 98.44258300000001,
+          "search": 32.86650000000009,
+          "sort": 36.103415999999925,
+          "project": 30.661459000000377,
+          "upcoming": 99.34179200000017,
+          "exportDownload": 66.45708299999978,
+          "importPreview": 62.794624999999996,
+          "restore": 82.03266699999995,
+          "heapBytesAfterRestore": 4758844
+        },
+        {
+          "render": 98.21379200000001,
+          "search": 33.31266699999969,
+          "sort": 36.74720799999977,
+          "project": 30.683958000000075,
+          "upcoming": 96.74062500000036,
+          "exportDownload": 56.53916599999957,
+          "importPreview": 65.54724999999962,
+          "restore": 76.6954169999999,
+          "heapBytesAfterRestore": 4785192
+        }
+      ],
+      "medianMs": {
+        "render": 97.58,
+        "search": 33.09,
+        "sort": 36.43,
+        "project": 31.54,
+        "upcoming": 96.48,
+        "exportDownload": 63.49,
+        "importPreview": 63.97,
+        "restore": 80.03
+      }
+    },
+    {
+      "count": 1000,
+      "projectCount": 20,
+      "jsonBytes": 526564,
+      "trials": [
+        {
+          "render": 202.14558399999987,
+          "search": 64.93062499999996,
+          "sort": 117.26699999999983,
+          "project": 47.56629200000043,
+          "upcoming": 143.5147079999997,
+          "exportDownload": 88.01558399999976,
+          "importPreview": 193.1935000000003,
+          "restore": 218.4568330000002,
+          "heapBytesAfterRestore": 14190092
+        },
+        {
+          "render": 194.02441699999963,
+          "search": 47.4193750000004,
+          "sort": 105.41337500000009,
+          "project": 46.74916699999994,
+          "upcoming": 128.59170900000026,
+          "exportDownload": 66.83491700000013,
+          "importPreview": 189.2257499999996,
+          "restore": 204.56262499999957,
+          "heapBytesAfterRestore": 14190036
+        },
+        {
+          "render": 199.01704100000006,
+          "search": 47.81408300000021,
+          "sort": 104.06537499999922,
+          "project": 45.95841699999983,
+          "upcoming": 161.35570800000005,
+          "exportDownload": 87.09370800000033,
+          "importPreview": 176.24408399999993,
+          "restore": 215.2360830000016,
+          "heapBytesAfterRestore": 14204392
+        },
+        {
+          "render": 196.67983300000014,
+          "search": 47.53212500000154,
+          "sort": 102.81620800000019,
+          "project": 48.84904099999949,
+          "upcoming": 162.1887910000005,
+          "exportDownload": 85.9858750000003,
+          "importPreview": 191.64287499999955,
+          "restore": 215.22829100000126,
+          "heapBytesAfterRestore": 14191192
+        }
+      ],
+      "medianMs": {
+        "render": 197.85,
+        "search": 47.67,
+        "sort": 104.74,
+        "project": 47.16,
+        "upcoming": 152.44,
+        "exportDownload": 86.54,
+        "importPreview": 190.43,
+        "restore": 215.23
+      }
+    },
+    {
+      "count": 3000,
+      "projectCount": 50,
+      "jsonBytes": 1585592,
+      "trials": [
+        {
+          "render": 444.1527500000011,
+          "search": 96.51783400000022,
+          "sort": 287.49866699999984,
+          "project": 106.6401249999999,
+          "upcoming": 318.9680420000004,
+          "exportDownload": 132.63658299999952,
+          "importPreview": 479.5803330000017,
+          "restore": 515.634250000001,
+          "heapBytesAfterRestore": 34955588
+        },
+        {
+          "render": 432.41391699999986,
+          "search": 95.82358400000157,
+          "sort": 289.7021249999998,
+          "project": 96.99554200000057,
+          "upcoming": 287.6421250000003,
+          "exportDownload": 124.95100000000093,
+          "importPreview": 495.899707999999,
+          "restore": 508.257999999998,
+          "heapBytesAfterRestore": 34958180
+        },
+        {
+          "render": 438.64166599999953,
+          "search": 95.46045799999774,
+          "sort": 289.4321659999987,
+          "project": 98.35137500000201,
+          "upcoming": 287.11041699999987,
+          "exportDownload": 123.2596659999981,
+          "importPreview": 480.32733400000143,
+          "restore": 514.0873749999992,
+          "heapBytesAfterRestore": 34957492
+        },
+        {
+          "render": 436.66062500000044,
+          "search": 96.02137500000026,
+          "sort": 291.6602499999972,
+          "project": 114.28066699999908,
+          "upcoming": 302.78125,
+          "exportDownload": 126.53108299999803,
+          "importPreview": 460.98483300000225,
+          "restore": 510.4213750000017,
+          "heapBytesAfterRestore": 34955120
+        }
+      ],
+      "medianMs": {
+        "render": 437.65,
+        "search": 95.92,
+        "sort": 289.57,
+        "project": 102.5,
+        "upcoming": 295.21,
+        "exportDownload": 125.74,
+        "importPreview": 479.95,
+        "restore": 512.25
+      }
+    }
+  ]
+}

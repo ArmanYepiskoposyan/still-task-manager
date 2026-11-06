@@ -1,0 +1,274 @@
+{
+  "measuredAt": "2026-11-02T14:48:45.210Z",
+  "node": "v24.22.1",
+  "browser": "156.0.8078.4",
+  "platform": "darwin",
+  "arch": "arm64",
+  "cpu": "Apple M2",
+  "logicalCpus": 8,
+  "memoryBytes": 8589934592,
+  "trialsPerSize": 4,
+  "method": "Local production builds. Playwright elapsed time plus observable DOM and two animation frames; not INP. Uncontrolled machine load. Paired renders alternate order using identical v1 records. Phase 5 feature timings use v2 records with projects.",
+  "comparisons": [
+    {
+      "count": 100,
+      "trials": [
+        {
+          "phase4": 116.05420800000002,
+          "phase5": 100.40758300000016
+        },
+        {
+          "phase5": 98.42379099999994,
+          "phase4": 98.94608400000016
+        },
+        {
+          "phase4": 96.02283299999999,
+          "phase5": 77.04904199999964
+        },
+        {
+          "phase5": 91.32179200000019,
+          "phase4": 88.82449999999972
+        }
+      ],
+      "medianMs": {
+        "phase4": 97.48445850000007,
+        "phase5": 94.87279150000006
+      }
+    },
+    {
+      "count": 1000,
+      "trials": [
+        {
+          "phase4": 196.97354199999972,
+          "phase5": 177.98304199999984
+        },
+        {
+          "phase5": 186.30529099999967,
+          "phase4": 173.7490829999997
+        },
+        {
+          "phase4": 176.43083299999944,
+          "phase5": 176.67837500000041
+        },
+        {
+          "phase5": 177.36441600000035,
+          "phase4": 175.9859579999993
+        }
+      ],
+      "medianMs": {
+        "phase4": 176.20839549999937,
+        "phase5": 177.6737290000001
+      }
+    },
+    {
+      "count": 3000,
+      "trials": [
+        {
+          "phase4": 424.2943749999995,
+          "phase5": 426.4795409999997
+        },
+        {
+          "phase5": 429.4404170000007,
+          "phase4": 418.01729200000045
+        },
+        {
+          "phase4": 425.2955000000002,
+          "phase5": 430.44179200000144
+        },
+        {
+          "phase5": 435.0430000000015,
+          "phase4": 414.97450000000026
+        }
+      ],
+      "medianMs": {
+        "phase4": 421.15583349999997,
+        "phase5": 429.9411045000011
+      }
+    }
+  ],
+  "results": [
+    {
+      "count": 100,
+      "projectCount": 3,
+      "jsonBytes": 52551,
+      "trials": [
+        {
+          "render": 97.19958399999996,
+          "search": 48.7750419999993,
+          "sort": 41.415624999999636,
+          "project": 33.27741699999933,
+          "upcoming": 110.94508300000052,
+          "exportDownload": 75.54887500000041,
+          "importPreview": 63.83991699999933,
+          "restore": 75.98158299999886,
+          "heapBytesAfterRestore": 4788100
+        },
+        {
+          "render": 80.69754100000137,
+          "search": 33.74725000000035,
+          "sort": 34.90129199999865,
+          "project": 31.57941700000083,
+          "upcoming": 94.92383299999892,
+          "exportDownload": 51.97029199999997,
+          "importPreview": 48.91429100000096,
+          "restore": 73.26937499999985,
+          "heapBytesAfterRestore": 4760488
+        },
+        {
+          "render": 101.03695899999911,
+          "search": 31.001791999999114,
+          "sort": 33.830417000001034,
+          "project": 31.834791999999652,
+          "upcoming": 98.1185000000005,
+          "exportDownload": 47.72479100000055,
+          "importPreview": 64.28637499999968,
+          "restore": 83.96945799999958,
+          "heapBytesAfterRestore": 4787684
+        },
+        {
+          "render": 96.18845900000088,
+          "search": 32.46312500000022,
+          "sort": 35.85883300000023,
+          "project": 32.24916699999994,
+          "upcoming": 80.28191599999991,
+          "exportDownload": 50.588416999999026,
+          "importPreview": 47.623999999999796,
+          "restore": 84.27050000000054,
+          "heapBytesAfterRestore": 4757436
+        }
+      ],
+      "medianMs": {
+        "render": 96.69,
+        "search": 33.11,
+        "sort": 35.38,
+        "project": 32.04,
+        "upcoming": 96.52,
+        "exportDownload": 51.28,
+        "importPreview": 56.38,
+        "restore": 79.98
+      }
+    },
+    {
+      "count": 1000,
+      "projectCount": 20,
+      "jsonBytes": 526564,
+      "trials": [
+        {
+          "render": 178.44774999999936,
+          "search": 51.02800000000025,
+          "sort": 115.9908749999995,
+          "project": 47.1432909999985,
+          "upcoming": 159.90087500000118,
+          "exportDownload": 86.0437920000004,
+          "importPreview": 206.87754200000018,
+          "restore": 213.69066699999894,
+          "heapBytesAfterRestore": 14210300
+        },
+        {
+          "render": 191.7254580000008,
+          "search": 46.026083999997354,
+          "sort": 104.49733300000298,
+          "project": 47.067833000000974,
+          "upcoming": 127.0367499999993,
+          "exportDownload": 70.15887500000099,
+          "importPreview": 207.4459999999999,
+          "restore": 208.7583749999976,
+          "heapBytesAfterRestore": 14209004
+        },
+        {
+          "render": 200.02720899999986,
+          "search": 63.31879199999821,
+          "sort": 116.43670799999745,
+          "project": 46.4586249999993,
+          "upcoming": 144.296709000002,
+          "exportDownload": 61.75841700000092,
+          "importPreview": 204.79479100000026,
+          "restore": 201.3685829999995,
+          "heapBytesAfterRestore": 14202136
+        },
+        {
+          "render": 193.0367920000026,
+          "search": 45.75666700000147,
+          "sort": 107.45879199999763,
+          "project": 47.92766699999993,
+          "upcoming": 126.83937499999956,
+          "exportDownload": 69.25570799999696,
+          "importPreview": 208.13870800000223,
+          "restore": 209.711124999998,
+          "heapBytesAfterRestore": 14207100
+        }
+      ],
+      "medianMs": {
+        "render": 192.38,
+        "search": 48.53,
+        "sort": 111.72,
+        "project": 47.11,
+        "upcoming": 135.67,
+        "exportDownload": 69.71,
+        "importPreview": 207.16,
+        "restore": 209.23
+      }
+    },
+    {
+      "count": 3000,
+      "projectCount": 50,
+      "jsonBytes": 1585592,
+      "trials": [
+        {
+          "render": 440.5559170000015,
+          "search": 94.87120900000082,
+          "sort": 286.9375,
+          "project": 113.6372080000001,
+          "upcoming": 336.58416600000055,
+          "exportDownload": 141.02283299999908,
+          "importPreview": 527.0619589999988,
+          "restore": 538.8736250000002,
+          "heapBytesAfterRestore": 34955848
+        },
+        {
+          "render": 440.49591599999985,
+          "search": 96.13679100000081,
+          "sort": 274.56933299999946,
+          "project": 98.03212500000154,
+          "upcoming": 270.63824999999997,
+          "exportDownload": 127.46170800000255,
+          "importPreview": 495.85254200000054,
+          "restore": 530.484042,
+          "heapBytesAfterRestore": 34955756
+        },
+        {
+          "render": 440.70345799999996,
+          "search": 95.55362499999683,
+          "sort": 274.25199999999677,
+          "project": 97.80829100000119,
+          "upcoming": 286.92233399999895,
+          "exportDownload": 123.64899999999761,
+          "importPreview": 495.61616700000013,
+          "restore": 543.7089159999996,
+          "heapBytesAfterRestore": 34956780
+        },
+        {
+          "render": 433.5383750000001,
+          "search": 95.43279199999961,
+          "sort": 275.44983299999876,
+          "project": 97.71545799999876,
+          "upcoming": 303.55204199999935,
+          "exportDownload": 134.54979099999764,
+          "importPreview": 479.39533400000073,
+          "restore": 501.1987499999959,
+          "heapBytesAfterRestore": 34957356
+        }
+      ],
+      "medianMs": {
+        "render": 440.53,
+        "search": 95.49,
+        "sort": 275.01,
+        "project": 97.92,
+        "upcoming": 295.24,
+        "exportDownload": 131.01,
+        "importPreview": 495.73,
+        "restore": 534.68
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "inspectedOn": "2026-11-03",
+  "repository": {
+    "full_name": "ArmanYepiskoposyan/java-task-manager",
+    "html_url": "https://github.com/ArmanYepiskoposyan/java-task-manager",
+    "ssh_url": "git@github.com:ArmanYepiskoposyan/java-task-manager.git",
+    "default_branch": "main",
+    "size": 0,
+    "private": false,
+    "archived": false,
+    "created_at": "2026-07-11T10:05:50Z",
+    "updated_at": "2026-07-11T10:05:51Z",
+    "pushed_at": "2026-07-11T10:05:51Z",
+    "license": null
+  },
+  "branches": [],
+  "commits": {
+    "httpStatus": 409,
+    "message": "Git Repository is empty.",
+    "documentation_url": "https://docs.github.com/rest/commits/commits#list-commits",
+    "status": "409"
+  },
+  "contents": {
+    "httpStatus": 404,
+    "message": "This repository is empty.",
+    "documentation_url": "https://docs.github.com/v3/repos/contents/#get-contents",
+    "status": "404"
+  },
+  "gitLsRemote": {
+    "exitCode": 0,
+    "output": "",
+    "command": "git ls-remote --symref https://github.com/ArmanYepiskoposyan/java-task-manager.git HEAD refs/heads/* refs/tags/*"
+  },
+  "interpretation": "Existing public repository is empty: no advertised refs, branches, commits or contents. main is the configured default branch, not an existing commit-bearing branch. No remote mutations performed.",
+  "finalSshRecheck": {
+    "exitCode": 0,
+    "advertisedRefs": "",
+    "hostKeyChecking": "strict",
+    "remoteMutation": false
+  }
+}
